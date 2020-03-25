@@ -9,8 +9,6 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* Блок Header */
-
 .header {
     position: relative;
     display: flex;
@@ -20,7 +18,6 @@
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;
-     
     /* выше установили ограничения для секции */
 }
 
@@ -28,7 +25,6 @@
     width: 183px;
     height: 32px;
     background-repeat: no-repeat;
-   
 }
 
 .logo_place_header{
@@ -45,7 +41,6 @@
     line-height: 96px;
     font-size: 102px;
     font-weight: bold;
-     
 }
 
 .header__subtitle{
@@ -59,7 +54,6 @@
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-     
 }
 
 .header__link{
@@ -72,10 +66,8 @@
     background-size: 100%;
     width: 765px;
     height: 608px;
-    
     right: 0px;
     bottom: 0px;
-     
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -86,27 +78,25 @@
     position: absolute;
     top: 64px;
     right: 0px;
-     
 }
 
-/* Блок Descripshion */
-
 .description{
+
     margin: 100px auto 100px;
-  }
+}
 
 .two-columns{
     width: 80%;
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    margin: 0 auto 0;
+    margin: 100px auto 100px;
 }
 
 .two-columns__brief{
     display: flex;
     width: 175px;
-}
+ }
 
 .two-columns__brief-link{
     font-size: 18px;
@@ -126,18 +116,15 @@
     line-height: 34px;
     font-weight: normal;
     min-height: 30px;
+    margin-top: 0px;
 }
 
-/*.two-columns__paragraph-text{
-    
-}*/
-
 .two-columns__paragraph-top{
-    margin: 0px; 
+    margin-top: 0p
 }
 
 .two-columns__paragraph-center{
-    margin: 30 30;
+    margin: 30xp 30px;
 }
 .two-columns__paragraph-botton{
     margin: 0px;
@@ -149,14 +136,13 @@
     font-weight: bold;
 }
 
-/* Блок Digits */
 
 .digits{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;  
-    margin-top: 100px ; 
+    margin-top: 100px auto 100px ; 
 }
 .section-title{
     display: flex;
@@ -164,7 +150,7 @@
     width: 60%;
     font-size: 60px;
     line-height:69px;
-    margin: 0px auto 0px auto;
+    margin: 100px auto 0px;
 }
 
 .section-subtitle{
@@ -182,14 +168,12 @@
 }
 
 .table__margin{
-    margin: 0px auto 0px;
-
+    margin: 0px auto 100px;
 }
 
 .table__cell{
     display: flex;
     flex-direction: column;
-     
 }
 
 .table__cell_line-top{
@@ -199,7 +183,6 @@
 
 .table__cell_line-bottom{
     width: 250px;
-
 }
 
 .table__headihg{
@@ -215,21 +198,19 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
-     
 }
 
 .table__text_span-accent{
     margin-top: 20px;
 }
 
-/* Блок Feinman */
 .feinman{
     position: relative;
     display: flex;
     flex-direction: column;
     height: 790px;
     background-color: #F2F2F2;
-    margin-top: 100px;
+    margin: 100px auto 0px;
 }
 
 .feinman__fon{
@@ -239,14 +220,12 @@
     width: 867px;
     height: 637px;
     z-index: 0;
-     
 }
 
 .feinman__title{
     width: 648px;
-    margin: 0px auto 0px;
+    margin: 100px auto 0px;
     z-index: 10;
-     
 }
 
 .feinman__title-text{
@@ -256,7 +235,6 @@
     line-height: 1.15;
     font-weight: bold;
 }
-
 .feinman__subtitle{
     margin: 70px auto;
     text-decoration: none;
@@ -265,6 +243,8 @@
     font-weight: normal;
     z-index: 9;
 }
+
+
 
 .feinman__link{
     position: absolute;
@@ -277,7 +257,6 @@
     color: #2F80ED;
 }
 
-/* Блок Kaufman */
 .kaufman{
     position: relative;
     overflow: hidden;
@@ -285,7 +264,7 @@
     flex-direction: column;
     z-index: -2;
     background-color: #000000;   
- }
+}
 
 .section-title_theme_dark{
     line-height: 69px;
@@ -295,7 +274,6 @@
     margin: 90px auto 0px;
     text-align: center;
     color: #F2F2F2;
-     
 
 }
 
@@ -323,6 +301,9 @@
     margin-top: 80px;
 }
 
+/* .table__heading_theme_dark{} */
+
+
 .table__text_theme_dark{
     margin-top: 20px;
 }
@@ -338,7 +319,6 @@
     z-index: -1;
 }
 
-/* Блок Footer */
 
 .footer{
     background-color: #000000;
@@ -346,8 +326,6 @@
     height: auto;
     margin: 0 auto;
     display: flex;
-    
-
 }
 
 .footer__columns{
@@ -365,12 +343,13 @@
 
 
 .logo_place_footer{
+
     position: absolute;
     top: 0px;
     left: 0px;
     width: 183px;
-    height:35px ;}
-
+    height:35px ;
+}
 
 .footer_autor{
     position: absolute;
@@ -403,6 +382,8 @@
     color: #F2F2F2;
 }
 
+/* .footer__colums_conent_social{} */
+
 .footer_social-icon{
     font-size: 18px;
     line-height: 30px;
@@ -418,9 +399,9 @@
     line-height: 30px;
     font-weight: normal;
 }
-
 .footer_icon{
     color: #F2F2F2;
+
 }
 
 .footer_social-icon_logo{

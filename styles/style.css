@@ -10,16 +10,74 @@
 }
 
 .header {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    border: 1px solid red;
+    ;
     /* выше установили ограничения для секции */
 }
 
+.logo{
+    width: 183px;
+    height: 32px;
+    background-color: blueviolet;
+    border: 1px solid red;
+}
+
+.logo_place_header{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 64px;
+    border: 1px solid red;
+    
+}
+
+.logo-image{
+   display: flex;
+   border: 1px solid red;
+}
+
+.header__title{
+   display: flex;
+   background-color: gold;
+   margin-left: 64px;
+   width: 730px;
+   font-size: 100px;
+   flex-direction: column;
+   border: 1px solid red;
+   
+}
+
+.header__subtitle{
+    display: flex;
+    background-color: rgb(156, 156, 211);
+    width: 388px;
+    margin-bottom: 30px;
+    margin-left: 64px;
+    border: 1px solid red;
+}
+
+.header__main-illustration{
+    background-image:url(https://code.s3.yandex.net/web-code/album.png)
+    border: 1px solid red;
+    width: 200px;
+    height: 300px;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+    display: flex;
+    background-color: blue;
     height: 568px;
     width: 568px;
+    margin-top: 64px;
+    margin-right: 0px;
+    border: 1px solid red;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +86,5 @@
     color: white;
     margin-right: 0;
     margin-top: 80px;
+    border: 1px solid red;
 }

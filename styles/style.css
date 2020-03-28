@@ -93,6 +93,11 @@
 .two-columns__brief{
     display: flex;
     width: 175px;
+    margin-top: 0px;
+    line-height: 1.2;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2F80ED;
  }
 
 .two-columns__brief-link{
@@ -112,8 +117,8 @@
     font-size: 24px;
     line-height: 34px;
     font-weight: normal;
-    min-height: 30px;
     margin-top: 0px;
+    margin-bottom: 30px;
 }
  
 .two-columns__span-accent{
@@ -157,7 +162,6 @@
     width: 1100px;
     margin: 0px auto 100px;
     padding-left: 0px;
-    padding-top: 60px;
 }
 
 .table__cell{
@@ -187,10 +191,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
-   
+    padding-top: 100px;
     height: 790px;
     background-color: #F2F2F2;
-    margin: 100px auto 0px;
+    margin: 0px auto 0px;
 }
 
 .feinman__fon{
@@ -248,45 +252,33 @@
 }
 
 .section-title_theme_dark{
-    line-height: 69px;
-    font-size: 60px;
-    font-weight: bold;
-    width: 60%;
-    margin: 90px auto 0px;
-    text-align: center;
+    margin-top: 90px;
     color: #F2F2F2;
 
 }
 
 .section-subtitle_theme_dark{
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    width: 60%;
-    text-align: center;
-    margin: 20px auto 0px auto;
     color: #F2F2F2;
 }
 
 .table_theme_dark{
-    padding: 0px;
-    margin: 0px auto 90px;
-   width: 1100px;
+    margin-bottom: 90px;
+    z-index: 2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
     width: 200px;
-    color: #F2F2F2;
-    margin-right: 0;
     margin-top: 80px;
 }
 
-/* .table__heading_theme_dark{} */
+.table__heading_theme_dark{
+    color: #F2F2F2;
+} 
 
 
 .table__text_theme_dark{
-    margin-top: 20px;
+    color: #F2F2F2;
 }
 
 .kaufman__triangle{
@@ -297,14 +289,13 @@
     position: absolute;
     top: 0px;
     right: -210px;
-    z-index: -1;
+    z-index: 1;
 }
 
 
 .footer{
     position: relative;
     display: flex;
-  
     background-color: #1F1F1F;
     min-height: 350px;
     
@@ -337,10 +328,11 @@
     height:35px ;
 }
 
-.footer_autor{
+.footer__autor{
     line-height: 25px;
     font-size: 18px;
     padding: 18px 0 18px;
+    margin: 0px;
     color: #F2F2F2;
 }
 
@@ -391,7 +383,7 @@
 .footer__list-item{
     display: flex;
 }
-.footer_social-icon{
+.footer__social-icon{
     margin-right: 10px;
     width: 16px;
     height: 16px;

@@ -1,0 +1,9 @@
+.feinman__subtitle{
+    position: relative;
+    margin: 70px auto 0px auto;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: normal;
+    z-index: 10;
+}

@@ -1,0 +1,6 @@
+.two-columns__brief{
+    display: flex;
+    justify-content: start;
+    width: 175px;
+    margin-top: 0px;
+ }

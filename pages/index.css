@@ -1,4 +1,6 @@
+
 @import url("../vendor/normalize.css");
+@import url("../rotation/rotation.css");
 @import url("../blocks/cards/cards.css");
 @import url("../blocks/description/description.css");
 @import url("../blocks/digits/digits.css");
@@ -19,11 +21,5 @@
 @import url("../blocks/two-columns/two-columns.css");
 @import url("../blocks/video/video.css");
 
-@keyframes rotation{
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }      
-}
+
+
